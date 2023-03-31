@@ -1,0 +1,35 @@
+{
+  "name": "@avs-2307/ajs",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVS-2307/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/AVS-2307/ajs/issues"
+  },
+  "homepage": "https://github.com/AVS-2307/ajs#readme",
+  "dependencies": {
+    "@avs-2307/ajs": "^1.0.3"
+  }
+}
